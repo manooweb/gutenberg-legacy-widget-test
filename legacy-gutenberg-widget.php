@@ -3,9 +3,9 @@ class Gutenberg_Legacy_Test_Widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'gutenberg',
-			__( 'Legacy Gutenberg test widget' ),
+			__( 'Legacy Gutenberg Test Widget' ),
 			array(
-				'description'                 => __( 'Displays a legacy Gutenberg test widget' ),
+				'description'                 => __( 'Displays a legacy Gutenberg Test Widget' ),
 				'customize_selective_refresh' => true,
 			)
 		);
