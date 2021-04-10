@@ -6,7 +6,7 @@ It is a base to test the issue https://github.com/WordPress/gutenberg/issues/286
 
 ## How to use
 
-Simply put in your `wp-content/mu-plugins/` of your WordPress instance the 2 files:
+Simply put in your `wp-content/mu-plugins/` folder of your WordPress instance the 2 files:
 - legacy-gutenberg-widget.php
 - legacy-gutenberg-widget.js
 
@@ -20,7 +20,7 @@ You can then add the `Legacy Gutenberg Test Widget` as a block in a widget area.
 
 ## How to test
 
-- Add 2 new `Legacy Gutenberg Test Widget` in a empty widget area to make sure the jQuery script targets correctly each legacy widget. See that the behaviours excepted described above doesn't work.
+- Add 2 new `Legacy Gutenberg Test Widget` in a empty widget area to make sure the jQuery script targets correctly each legacy widget. See that the behaviours expected described above doesn't work.
 - Save the widget screen
 - Try again to check or uncheck the checkbox fields and see that they don't work as expected.
 - Refresh the widget screen
