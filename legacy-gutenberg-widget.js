@@ -27,6 +27,7 @@ jQuery(
 					'.gutenberg' + v,
 					function() {
 						var this_id = $( this ).parent().parent().parent().children( '.widget-id' ).attr( 'value' );
+						console.log('gutenberg', this, this_id )
 						if ( true != $( this ).prop( 'checked' ) ) {
 							$( '#widget-' + this_id + options[ 1 - i ] ).prop( 'checked', true );
 						}
