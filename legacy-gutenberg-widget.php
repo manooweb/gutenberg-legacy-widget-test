@@ -50,8 +50,8 @@ class Gutenberg_Legacy_Test_Widget extends WP_Widget {
 
 			printf(
 				'<div%5$s%6$s><input type="checkbox" class="checkbox %7$s" id="%1$s" name="%2$s"%3$s /><label for="%1$s">%4$s</label></div>',
-				esc_attr( $this->get_field_id( $key ) ),
-				esc_attr( $this->get_field_name( $key ) ),
+				$field_id,
+				$field_name,
 				checked( $instance[ $key ], true, false ),
 				esc_html( $str ),
 				in_array( $key, array( 'show_names', 'show_flags' ) ) ? sprintf( ' class="no-dropdown-%s"', esc_attr( $this->id ) ) : '',
